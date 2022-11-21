@@ -47,11 +47,19 @@ public class Test {
 		robo.mover();
 		robo.mover();
 		robo.mover();
+		robo.setComportamento(agressivo);
+		robo.setComportamento(agressivo);
+		robo.setComportamento(agressivo);
+		robo.setComportamento(agressivo);
+		robo.mover();
+		robo.mover();
+		robo.setComportamento(defensivo);
+		robo.setComportamento(defensivo);
 		
 		// Facade
 		
 		Facade facade = new Facade();
-		facade.migrarCliente("Venilton", "14801788");
+		facade.migrarCliente("Gabriel", "13910-025");
 	}
 
 }
